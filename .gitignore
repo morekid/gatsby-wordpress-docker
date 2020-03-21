@@ -1,0 +1,5 @@
+wp/*
+wp_data/*
+
+!wp/.gitkeep 
+!wp_data/.gitkeep 
