@@ -33,7 +33,7 @@ module.exports = {
                 baseUrl: `wordpress`,
                 protocol: `http`,
                 hostingWPCOM: false,
-                useACF: false,
+                useACF: true,
             },
         },
     ],
