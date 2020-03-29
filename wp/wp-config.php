@@ -55,6 +55,10 @@ define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
 define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
 define( 'NONCE_SALT',       'put your unique phrase here' );
 
+/** JWT Authentication for WP REST API  */
+define('JWT_AUTH_SECRET_KEY', 'morekid_jwt_auth_secret');
+define('JWT_AUTH_CORS_ENABLE', true);
+
 /**#@-*/
 
 /**
@@ -91,7 +95,3 @@ require_once( ABSPATH . 'wp-settings.php' );
 
 /** Allows plugin CRUD without FTP auth */
 define( 'FS_METHOD', 'direct' );
-
-/** JWT Authentication for WP REST API  */
-define('JWT_AUTH_SECRET_KEY', 'morekid_jwt_auth_secret');
-define('JWT_AUTH_CORS_ENABLE', true);
