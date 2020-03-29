@@ -3,3 +3,7 @@ wp_data/*
 
 !wp/.gitkeep 
 !wp_data/.gitkeep 
+
+# WP custom config
+!wp/wp-config.php
+!wp/.htaccess
