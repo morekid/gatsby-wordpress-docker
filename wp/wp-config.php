@@ -88,3 +88,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once( ABSPATH . 'wp-settings.php' );
+
+/** Allows plugin CRUD without FTP auth */
+define( 'FS_METHOD', 'direct' );
