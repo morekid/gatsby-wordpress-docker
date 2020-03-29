@@ -13,6 +13,8 @@ services:
         networks:
             - wp_gatsby
         command: develop # Options: "develop", "build" or "stage", see entrypoint.
+        depends_on:
+            - wordpress
 
     wordpress:
         image: wordpress
